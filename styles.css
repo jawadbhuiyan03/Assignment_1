@@ -1,0 +1,281 @@
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+}
+ header{
+    background-image: url(images/Hero-bg.png);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 150px;
+}
+nav ul li{
+    list-style: none;
+}
+.btn{
+    background-color: #4E47FF;
+    color: whitesmoke;
+    height: 48px;
+    width: 132px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin: 65px;
+}
+header nav h3{
+    font-size: 45px;
+   font-weight: 900;
+   color: #4E47FF;
+   
+}
+header div h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #252432;
+    font-size: 90px;
+    text-align: center;
+    margin:0px 10px 65px 20px;
+
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.action{
+    display: flex;
+    justify-content:space-around;
+    align-items: centers;
+    margin: 50px 90px;
+}
+.image img {
+    height: 300px;
+    width: 380px;
+    border: none;
+    border-radius: 50px;
+}
+.heading h3{
+    font-size: 40px;
+    font-weight: 700;
+}
+.heading p{
+
+    color: #252432;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 1.2; 
+}
+.newline{
+    display: block;
+}
+.button1{
+    background-color: #4E47FF;
+    color: whitesmoke;
+    height: 48px;
+    width: 219px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.users{
+    border:none;
+    border-radius: 30px;
+    margin: 70px;
+    padding: 20px;
+    background-color: #eef;
+    text-align: center;
+}
+.start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 80px;
+}
+.users h3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+.start-box h2{
+    color: #4E47FF;
+    font-size: 48px;
+    margin: 0;
+}
+.start-box p{
+    font-size: 16px;
+    color: gray;
+    margin-top: 8px;
+}
+.review h3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+.star{
+    display: flex;
+    list-style: none;
+}
+.reviewer{
+    display: flex;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.reviewer ul li{
+    list-style: none;
+}
+.person{
+    height:243px;
+    width: 366px;
+    border: none;
+    box-shadow: 2px whitesmoke;
+    background-color:whitesmoke;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.review{
+    background-color: white;
+    border: 1px solid white;
+    margin: 0px 130px 0px 130px;
+}
+.final{
+    background-color: whitesmoke;
+    text-align: center;
+    border: 1px solid white;
+    margin: 120px;
+    padding: 20px;
+}
+.final img{
+    border-radius: 40px;
+    margin: 20px;
+}
+.final p{
+    color: #000000;
+}
+.final h2{
+    font-size: 40px; 
+    font-weight: 600;
+}
+.last div h1{
+   font-size: 100px;
+   font-weight: 700;
+}
+.last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.input ul li {
+list-style: none;
+height: 40px;
+width: 100px;
+margin 30px;
+padding: 20px;
+}
+
+.container {
+      display: flex;
+      max-width: 900px;
+      width: 100%;
+      background-color: #f5f8ff;
+      padding: 40px;
+      gap: 50px;
+    }
+
+    .left {
+      flex: 1;
+      display: flex;
+      align-items: center;
+    }
+
+    .left h1 {
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 1.2;
+      margin: 0;
+    }
+
+    .right {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .right label {
+      font-weight: 600;
+    }
+
+    .right input, .right textarea {
+      padding: 14px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+      width: 100%;
+      resize: none;
+    }
+
+    .right textarea {
+      height: 120px;
+    }
+
+    .right button {
+      background-color: #4e4fff;
+      color: white;
+      padding: 14px;
+      font-size: 16px;
+      font-weight: bold;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .right button:hover {
+      background-color: #3c3cff;
+    }
+    .footer {
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .footer .logo {
+      font-size: 48px;
+      font-weight: 700;
+      color: #4e4fff;
+      margin-bottom: 20px;
+    }
+
+    .footer .description {
+      max-width: 600px;
+      margin: 0 auto 30px;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .footer .nav {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      font-weight: 500;
+    }
+
+    .footer .nav a {
+      text-decoration: none;
+      color: #6c6c8f;
+      transition: color 0.3s ease;
+    }
+
+    .footer .nav a:hover {
+      color: #4e4fff;
+    }
